@@ -1,3 +1,11 @@
+spirv-llvm-translator-21 (21.1.5-1deepin1) unstable; urgency=medium
+
+  * Lower build-dep on gcc to (>= 4:12). Verified the full build
+    (libLLVMSPIRVLib + llvm-spirv) passes with gcc 12.3.0 against LLVM
+    21.1.8; C++17 code needs nothing newer.
+
+ -- lichenggang <lichenggang@uniontech.com>  Thu, 08 Oct 2026 17:59:28 +0800
+
 spirv-llvm-translator-21 (21.1.5-1) unstable; urgency=medium
 
   * New upstream release.
